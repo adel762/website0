@@ -1,0 +1,87 @@
+*{
+    font-family: montserrat;
+}
+body{
+    background:f1fbff ;
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.503);
+    z-index: 1;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+.section-padding{
+    padding: 100px 0;
+}
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    margin-bottom: 220px;
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+.w-100{
+    height: 100vh;
+}
+
+#services{
+    background-color: rgb(230, 244, 244);
+}
+.services .card i{
+    font-size:50px ;
+}
+.services_team .card i{
+    color: #000;
+    font-size:30px ;
+}
+.services .card i:hover{
+    color: #ffc107;
+    /* font-size: 60px; */
+    transition-duration: 400ms;
+}
+ #icon_text{
+    font-size: 25px;
+    padding-right: 50px;
+ }
+ .list-unstyled a{
+    text-decoration: none;
+ }
+ .services .col img:hover{
+    background-color: #ffc107;
+}
+.services_team .card i:hover{
+    color:  #0d6dfdcf;
+    transition-duration: 400ms;
+}
+
+
